@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -6,7 +7,7 @@ export default class Porfolio extends Component {
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1>Check out some of the projects I've built</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
@@ -19,6 +20,7 @@ export default class Porfolio extends Component {
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
+                          <FontAwesomeIcon icon="fab fa-js" />
                         </div>
                       </div>
                     </a>

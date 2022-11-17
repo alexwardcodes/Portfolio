@@ -5,6 +5,33 @@ export default  class Resume extends Component {
     return (
       <section id="resume">
 
+<div className="row experience">
+
+<div className="three columns header-col">
+   <h1><span>Experience</span></h1>
+</div>
+
+<div className="nine columns main-col">
+  {
+    resumeData.experience && resumeData.experience.map((item)=>{
+      return(
+        <div className="row item">
+           <div className="twelve columns">
+              <h3>{item.CompanyName}</h3>
+              <p className="info">
+              {item.specialization}
+              <span>&bull;</span> <em className="date">{item.MonthOfStarting} {item.YearOfStarting}</em></p>
+              <p>
+              {item.Description}
+              </p>
+           </div>
+        </div>
+      )
+    })
+  }
+</div>
+</div>
+
          <div className="row education">
 
             <div className="three columns header-col">
@@ -72,7 +99,7 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				{/* <div className="bars">
 
    				   <ul className="skills">
                 {
@@ -88,7 +115,7 @@ export default  class Resume extends Component {
 
    					</ul>
 
-   				</div>
+   				</div> */}
 
    			</div>
 
