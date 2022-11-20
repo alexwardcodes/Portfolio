@@ -1,5 +1,5 @@
 import React from 'react';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 export default function Portfolio (props) {
 
@@ -23,7 +23,7 @@ export default function Portfolio (props) {
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                           {/* <FontAwesomeIcon icon="fab fa-js" /> */}
-                          
+
                         </div>
                       </div>
                     </a>

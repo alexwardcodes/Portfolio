@@ -75,7 +75,7 @@ let resumeData = {
         "Prioritising translations by client and urgency",
         "Delivering high quality work under tight deadlines",
         "Collaborating with a team of translators on large projects",
-        "Maintaining and updating client translation databases (\“translation memories\”)"]
+        "Maintaining and updating client translation databases (“translation memories”)"]
       },
       {
         "CompanyName":"Some Company",
