@@ -13,16 +13,16 @@ let resumeData = {
         },
         {
           "name":"github",
-          "url":"hhttps://github.com/alexwardcodes",
+          "url":"https://github.com/alexwardcodes",
           "className":"fa fa-github"
         },
         {
           "name":"slack",
           "url":"https://acmeorg.enterprise.slack.com/user/@U03MP0GRVH9",
-          "className":"fa-brands fa-slack"
+          "className":"fa fa-slack"
         }
       ],
-    "aboutme":"I am a former freelance translator whose curiosity for programming was sparked when I met a graduate of General Assembly’s 3-month software engineering immersive. I  chose to embark on a total career change towards software engineering, where my linguistic skills are a big asset. Dedicated, highly driven and always eager to learn, I’m passionate about the challenges and opportunities for collaboration that programming brings. I’m currently looking for opportunities to further develop my skills and move into a full stack role where I can utilise my abilities to their fullest potential.",
+    "aboutme":"In my previous life, I was a freelance translator working from German into English, translating primarily computer games along with finance materials. I began to lose the love of the job though, and my intense curiosity for programming was sparked when I happened to meet a graduate of General Assembly’s 3-month software engineering immersive at just the right time! I was hooked almost instantly, and I quickly decided on a total career change. I eagerly moved into software engineering, where my linguistic skills have proven to be a big asset. Dedicated, highly driven and always eager to learn, I’m passionate about the challenges I encounter in my programming journey and the opportunities for collaboration that this career path brings. I’m currently looking for opportunities to further develop my skills and move into a full stack role where I can utilise my abilities to their fullest potential.",
     "address":"Manchester M1, UK",
     "website":"https://alexward.codes",
     "experience": [{
@@ -30,7 +30,7 @@ let resumeData = {
       "specialization": "Software Engineering Immersive",
       "MonthOfStarting": "Aug",
       "YearOfStarting": "2022",
-      "Description": "Put SEI info here"
+      "Description": "This was a 3-month course offered by General Assembly - a leading provider of tech industry training - where I learned the fundamentals of software engineering in order to build full-stack applications both on my own and in groups. I did daily labs and homework assignments to practice what we learned in class, and had regular standups with other students on the course. I built and deployed one solo project and 3 group projects to demonstrate my new skills in full-stack development."
     }],
     "education":[
       {
@@ -38,7 +38,7 @@ let resumeData = {
         "specialization":"Software Engineering Immersive",
         "MonthOfPassing":"November",
         "YearOfPassing":"2022",
-        "Achievements": "After ten years as a freelance translator, I was ready for a change, and GA's immersive SEI course was the perfect option for me. The course consisted of four modules"
+        "Achievements": "After ten years as a freelance translator, I was ready for a change, and GA's immersive SEI course was the perfect option for me to pursue a new career in a field I feel passionately about."
       },
       {
         "UniversityName":"Citizen Cafe Tel Aviv",
@@ -69,7 +69,13 @@ let resumeData = {
         "specialization":"German > English Translation and Proofreading",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2022",
-        "Achievements":"Some Achievements"
+        "Achievements":"Some Achievements",
+        "responsibilities": ["Translation of a range of materials - primarily gaming - from German into English", 
+        "Management of translation and proofreading projects",
+        "Prioritising translations by client and urgency",
+        "Delivering high quality work under tight deadlines",
+        "Collaborating with a team of translators on large projects",
+        "Maintaining and updating client translation databases (\“translation memories\”)"]
       },
       {
         "CompanyName":"Some Company",
@@ -113,22 +119,30 @@ let resumeData = {
       {
         "name":"Agora",
         "description":"MERN stack marketplace app",
-        "imgurl":"images/Agora.png"
+        "imgurl":"images/Agora.png",
+        "id": "Agora",
+        "text": "Agora marketplace"
       },
       {
         "name":"Django Djourneys",
         "description":"Python/Django travel app & quiz",
-        "imgurl":"images/Django-Djourneys.png"
+        "imgurl":"images/Django-Djourneys.png",
+        "id": "Django",
+        "text": "Django Djourneys travel app"
       },
       {
         "name":"Rate My Cat",
         "description":"An app for cat-lovers",  
-        "imgurl":"images/Rate-My-Cat.png"
+        "imgurl":"images/Rate-My-Cat.png",
+        "id": "RateMyCat",
+        "text": "Rate My Cat for rating cats"
       },
       {
         "name":"Odyssey",
         "description":"HTML/jQuery riddle game",
-        "imgurl":"images/Odyssey.png"
+        "imgurl":"images/Odyssey.png",
+        "id": "Odyssey",
+        "text": "Odyssey the riddle game"
       }
     ],
     "testimonials":[

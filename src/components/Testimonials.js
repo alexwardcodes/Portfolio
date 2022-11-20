@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-export default class Testimonials extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+import React from 'react';
+export default function Testimonials (props) {
+
+    let resumeData = props.resumeData;
     return (
       <section id="testimonials">
         <div className="text-container">
@@ -13,9 +13,9 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
+                    resumeData.testimonials && resumeData.testimonials.map((item, key)=>{
                       return(
-                        <li>
+                        <li key={key}>
                           <blockquote>
                             <p>
                             {item.description}
@@ -34,4 +34,3 @@ export default class Testimonials extends Component {
       </section>
         );
   }
-}

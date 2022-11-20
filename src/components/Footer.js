@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-export default class Footer extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+import React from 'react';
+export default function Footer (props) {
+
+    let resumeData = props.resumeData;
     return (
       <footer>
       <div className="row">
         <div className="twelve columns">
           <ul className="social-links">
             {
-              resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
+              resumeData.socialLinks && resumeData.socialLinks.map((item, key)=>{
                 return(
-                  <li>
-                    <a href={item.url}>
+                  <li key={key}>
+                    <a href={item.url} target="_blank" rel="noreferrer">
                     <i className={item.className} />
                     </a>
                   </li>
@@ -26,4 +26,3 @@ export default class Footer extends Component {
     </footer>
     );
   }
-}

@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-export default class Porfolio extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+
+export default function Portfolio (props) {
+
+    let resumeData = props.resumeData;
     return (
       <section id="portfolio">
       <div className="row">
@@ -10,17 +11,19 @@ export default class Porfolio extends Component {
           <h1>Check out some of the projects I've built</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            resumeData.portfolio && resumeData.portfolio.map((item, key)=>{
               return(
-                <div className="columns portfolio-item">
+                <div className="columns portfolio-item" key={key}>
                   <div className="item-wrap">
-                    <a href="#modal-01">
+                    <a href={`#${item.id}`}>
+                      <div id={`${item.id}`} className="mfp-hide" >{item.text}</div>
                       <img src={`${item.imgurl}`} className="item-img" alt="Project"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
-                          <FontAwesomeIcon icon="fab fa-js" />
+                          {/* <FontAwesomeIcon icon="fab fa-js" /> */}
+                          
                         </div>
                       </div>
                     </a>
@@ -35,4 +38,3 @@ export default class Porfolio extends Component {
   </section>
         );
   }
-}

@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-export default class ContactUs extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
+import React from "react";
+export default function ContactUs (props) {
+
+    let resumeData = props.resumeData;
     return (
       <section id="contact">
         <div className="row section-head">
@@ -31,4 +31,4 @@ export default class ContactUs extends Component {
       </section>
     );
   }
-}
+
