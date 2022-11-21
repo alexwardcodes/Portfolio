@@ -16,7 +16,19 @@ export default function Portfolio (props) {
                 <div className="columns portfolio-item" key={key}>
                   <div className="item-wrap">
                     <a href={`#${item.id}`}>
-                      <div id={`${item.id}`} className="mfp-hide" >{item.text}</div>
+                      <div id={`${item.id}`} className="mfp-hide" >
+                        <h1>{item.name}</h1>
+                        <p />
+                        <img src={`${item.imgurl}`} className="item-img" alt="Project" height="500" width="600"/>
+                        <p />
+                        <div className="modal-content-points">
+                        {item.text}
+                        <p />
+                        {item.points.map(point => { return (
+                          <li>{point}</li>
+                        )})}
+                        </div>
+                        </div>
                       <img src={`${item.imgurl}`} className="item-img" alt="Project"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">

@@ -82,7 +82,8 @@ let resumeData = {
         "specialization":"Some specialization",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Some Achievements",
+        "responsibilities": ["Stuff", "More stuff"]
       }
     ],
     "skillsDescription":"Put skills here",
@@ -121,28 +122,51 @@ let resumeData = {
         "description":"MERN stack marketplace app",
         "imgurl":"images/Agora.png",
         "id": "Agora",
-        "text": "Agora marketplace"
+        "text": "The aim of this project was to design an app using the MERN tech stack (MongoDB/Mongoose, Express, React and Node). I completed this project along with three other students from the course.",
+        "points": ["Full-stack marketplace app built within a week in a team of four",
+          "MERN stack app (Express.js/Node.js backend, React frontend and Mongo Atlas for data storage)",
+          "Built the general structure, product, review, search and cart APIs and models on the backend",
+          "Assisted in writing React components for my backend code",
+          "Deployed on Heroku",
+          ]
       },
       {
         "name":"Django Djourneys",
         "description":"Python/Django travel app & quiz",
         "imgurl":"images/Django-Djourneys.png",
         "id": "Django",
-        "text": "Django Djourneys travel app"
+        "text": "With my team ready for a holiday and taking inspiration from the perfume brand Penhaligon's website, we thought: \"Wouldn't it be great if you could have an app that tells you what your next holiday destination should be?\". Django Djourneys is the result!",
+        "points": ["Full-stack travel app built in a week with two other students",
+          "Led the team to manage the project development process",
+          "Coded in Python/jQuery using Django framework to design a quiz that profiles users of the site and suggests a list of holiday destinations based on their responses",
+          "Created the user/profile accounts and signup,  created and managed the destination list in our database",
+          "Used PostgreSQL for data storage and deployed on Heroku"
+          ]
       },
       {
         "name":"Rate My Cat",
         "description":"An app for cat-lovers",  
         "imgurl":"images/Rate-My-Cat.png",
         "id": "RateMyCat",
-        "text": "Rate My Cat for rating cats"
+        "text": "Rate My Cat is a full-stack app built in Express.js/Node.js where users can upload images of cats and have these rated by other users. Users can rate other people's cats, see other users, and there is also a leaderboard showing the most popular/highest rated cats.",
+        "points": ["Worked in a group of three over a week to design an app that allows users to register and submit pictures of their cats to be rated",
+          "Acted as team leader to manage the project",
+          "Built the overall structure, models, integrated APIs and views, and oversaw styling of the completed site while tracking the development flow and bugs to be fixed",
+          "Built using JavaScript in an Express framework, MongoDB and Mongoose for data storage",
+          "Deployed finished app on Heroku"
+          ]
       },
       {
         "name":"Odyssey",
         "description":"HTML/jQuery riddle game",
         "imgurl":"images/Odyssey.png",
         "id": "Odyssey",
-        "text": "Odyssey the riddle game"
+        "text": "Odyssey was my first ever project, a game built from scratch! I'm a huge mythology and folklore geek so I thought why not combine the two and make a Greek-influenced game? Besides, everyone loves a good riddle...!",
+        "points": ["Solo project built over the course of a week",
+          "Animated riddle game drawing on my love of mythology and ancient history",
+          "Built using jQuery in an HTML framework with CSS",
+          "Deployed via GitHub Pages"
+          ]
       }
     ],
     "testimonials":[

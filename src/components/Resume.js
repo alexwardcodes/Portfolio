@@ -81,6 +81,9 @@ export default function Resume (props) {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
+                          {item.responsibilities.map(element => {
+                            return (<li>{element}</li>)
+                          })}
                           </p>
                        </div>
 
@@ -109,7 +112,6 @@ export default function Resume (props) {
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
                           {item.Achievements}
-  
                           </p>
                        </div>
                     </div>

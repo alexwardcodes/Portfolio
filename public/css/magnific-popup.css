@@ -47,8 +47,21 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
-  text-align: left;
-  z-index: 1045; }
+  text-align: center;
+  z-index: 1045; 
+  color: white;}
+
+  h1 {
+    color: white;
+  }
+
+  .modal-content-points {
+    width: 500px;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+  display: inline-block;
+  }
 
 .mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
   width: 100%;
