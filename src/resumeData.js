@@ -69,7 +69,7 @@ let resumeData = {
         "specialization":"German > English Translation and Proofreading",
         "MonthOfLeaving":"July",
         "YearOfLeaving":"2022",
-        "Achievements":"Some Achievements",
+        "Achievements":"",
         "responsibilities": ["Translation of a range of materials - primarily gaming - from German into English", 
         "Management of translation and proofreading projects",
         "Prioritising translations by client and urgency",
@@ -78,12 +78,28 @@ let resumeData = {
         "Maintaining and updating client translation databases (“translation memories”)"]
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements",
-        "responsibilities": ["Stuff", "More stuff"]
+        "CompanyName":"Lloyds Banking Group",
+        "specialization":"Bilingual IT Analyst",
+        "MonthOfLeaving":"July",
+        "YearOfLeaving":"2012",
+        "Achievements":"",
+        "responsibilities": ["Front line IT support for German, Austrian, Dutch and Italian colleagues based in several European locations", "Resolution of basic IT issues and errors", "Management of software deployments", "Logging of colleague equipment requests", "Translation of software documentation and user manuals", "IT support for German external sales colleagues"]
+      },
+      {
+        "CompanyName":"thebigword",
+        "specialization":"Project Administrator",
+        "MonthOfLeaving":"April",
+        "YearOfLeaving":"2010",
+        "Achievements":"",
+        "responsibilities": ["Management of translation projects for medical clients", "Procurement of translation providers for client projects", "Completion of quality assurance checks for completed translations", "Formatting of translation documents before delivery", "Liasing with engineering team for automation", "Assisting other teams with project administration as required"]
+      },
+      {
+        "CompanyName":"Allianz AG",
+        "specialization":"Facultative Reinsurance Administrator",
+        "MonthOfLeaving":"September",
+        "YearOfLeaving":"2006",
+        "Achievements":"",
+        "responsibilities": ["Processing and escalation of contracts and premium bookings", "Management of contract items for 40+ clients in 6 countries", "Resolution of outstanding issues across 20+ years of previous contracts", "Client contact and engagement", "Logging of all correspondence and actions", "Translation of correspondence and contracts"]
       }
     ],
     "skillsDescription":"Put skills here",
