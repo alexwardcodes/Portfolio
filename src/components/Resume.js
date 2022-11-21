@@ -15,15 +15,22 @@ export default function Resume (props) {
 <div className="nine columns main-col">
 
    <p>
-   <Icon icon="teenyicons:mongodb-solid" width="75" alt="MongoDB" />
-   <Icon icon="akar-icons:postgresql-fill" width="75"/>
-   <Icon icon="mdi:language-javascript" width="75" />
-   <Icon icon="ion:logo-html5" width="75" />
-   <Icon icon="simple-icons:python" width="75" />
-   <Icon icon="akar-icons:django-fill" width="75" />
-   <Icon icon="teenyicons:react-outline" width="75" />
-   <Icon icon="vscode-icons:file-type-plsql" width="75" />
-   <Icon icon="akar-icons:vscode-fill" width="75" />
+   <Icon icon="ion:logo-html5" id="icon" width="75" />
+   <Icon icon="ion:logo-css3" id="icon"  width="75" />
+   <Icon icon="mdi:language-javascript" id="icon" width="75" />
+   <Icon icon="mdi:jquery" id="icon" width="75" />
+   <Icon icon="teenyicons:react-outline" id="icon"  width="75" />
+   <Icon icon="la:node-js" id="icon"  width="75" />
+   <Icon icon="simple-icons:express" id="icon" width="75" />
+   <Icon icon="simple-icons:python" id="icon" width="75" />
+   <Icon icon="akar-icons:django-fill" id="icon" width="75" />
+   <Icon icon="teenyicons:mongodb-solid" id="icon" width="75" alt="MongoDB" />
+   <Icon icon="akar-icons:postgresql-fill" id="icon" width="75" />
+   <Icon icon="mdi:sql-right-outer-join" id="icon" width="75" />
+   <Icon icon="fa6-brands:bootstrap" id="icon"  width="75" />
+   <Icon icon="akar-icons:vscode-fill"id="icon"  width="75" />
+   <Icon icon="mdi:git" id="icon" width="75" />
+   <Icon icon="mdi:github" id="icon" width="75" />
    </p>
 
 {/* <div className="bars">
