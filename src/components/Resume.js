@@ -1,4 +1,4 @@
-// import { faIceCream } from '@fortawesome/free-solid-svg-icons';
+import { Icon } from '@iconify/react';
 import React from 'react';
 export default function Resume (props) {
 
@@ -15,7 +15,15 @@ export default function Resume (props) {
 <div className="nine columns main-col">
 
    <p>
-   {resumeData.skillsDescription}
+   <Icon icon="teenyicons:mongodb-solid" width="75" alt="MongoDB" />
+   <Icon icon="akar-icons:postgresql-fill" width="75"/>
+   <Icon icon="mdi:language-javascript" width="75" />
+   <Icon icon="ion:logo-html5" width="75" />
+   <Icon icon="simple-icons:python" width="75" />
+   <Icon icon="akar-icons:django-fill" width="75" />
+   <Icon icon="teenyicons:react-outline" width="75" />
+   <Icon icon="vscode-icons:file-type-plsql" width="75" />
+   <Icon icon="akar-icons:vscode-fill" width="75" />
    </p>
 
 {/* <div className="bars">

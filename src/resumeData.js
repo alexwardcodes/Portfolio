@@ -102,36 +102,6 @@ let resumeData = {
         "responsibilities": ["Processing and escalation of contracts and premium bookings", "Management of contract items for 40+ clients in 6 countries", "Resolution of outstanding issues across 20+ years of previous contracts", "Client contact and engagement", "Logging of all correspondence and actions", "Translation of correspondence and contracts"]
       }
     ],
-    "skillsDescription":"Put skills here",
-    "skills":[
-      {
-        "skillname":"JavaScript"
-      },
-      {
-        "skillname":"MongoDB"
-      },
-      {
-        "skillname":"Express.js"
-      },
-      {
-        "skillname":"React.js"
-      },
-      {
-        "skillname":"Node.js"
-      },
-      {
-        "skillname":"Python"
-      },
-      {
-        "skillname":"Django"
-      },
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      }
-    ],
     "portfolio":[
       {
         "name":"Agora",
