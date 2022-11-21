@@ -5,15 +5,15 @@ export default function ContactUs (props) {
     let resumeData = props.resumeData;
     return (
       <section id="contact" className="contact-section">
-        <div className="row section-head">
-          <div className="ten columns">
+        {/* <div className="row section-head">
+          <div className="ten columns"> */}
             <p className="lead">
               Click on the links below to get in contact with me for job opportunities, project collaboration or further information
             </p>
-          </div>
-        </div>
+          {/* </div>
+        </div> */}
         <div className="row">
-          <aside className="eigth columns footer-widgets">
+          {/* <aside className="eigth columns footer-widgets"> */}
             <div className="widget">
               <span>
                 <a
@@ -27,7 +27,7 @@ export default function ContactUs (props) {
               </span>
 
             </div>
-          </aside>
+          {/* </aside> */}
         </div>
       </section>
     );
