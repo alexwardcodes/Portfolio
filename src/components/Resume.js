@@ -15,16 +15,16 @@ export default function Resume (props) {
 <div className="nine columns main-col">
 
    <p>
-   <Icon icon="ion:logo-html5" id="icon" width="75" />
+   <Icon icon="ion:logo-html5" id="icon" width="75"/>
    <Icon icon="ion:logo-css3" id="icon"  width="75" />
    <Icon icon="mdi:language-javascript" id="icon" width="75" />
    <Icon icon="mdi:jquery" id="icon" width="75" />
    <Icon icon="teenyicons:react-outline" id="icon"  width="75" />
-   <Icon icon="la:node-js" id="icon"  width="75" />
+   <Icon icon="la:node-js" id="icon" width="75" />
    <Icon icon="simple-icons:express" id="icon" width="75" />
    <Icon icon="simple-icons:python" id="icon" width="75" />
    <Icon icon="akar-icons:django-fill" id="icon" width="75" />
-   <Icon icon="teenyicons:mongodb-solid" id="icon" width="75" alt="MongoDB" />
+   <Icon icon="teenyicons:mongodb-solid" id="icon" width="75" />
    <Icon icon="akar-icons:postgresql-fill" id="icon" width="75" />
    <Icon icon="mdi:sql-right-outer-join" id="icon" width="75" />
    <Icon icon="fa6-brands:bootstrap" id="icon"  width="75" />
@@ -96,8 +96,8 @@ export default function Resume (props) {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
-                          {item.responsibilities.map(element => {
-                            return (<li>{element}</li>)
+                          {item.responsibilities.map((element, key) => {
+                            return (<li key={key}>{element}</li>)
                           })}
                           </p>
                        </div>

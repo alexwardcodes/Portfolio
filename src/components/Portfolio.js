@@ -24,8 +24,8 @@ export default function Portfolio (props) {
                         <div className="modal-content-points">
                         {item.text}
                         <p />
-                        {item.points.map(point => { return (
-                          <li>{point}</li>
+                        {item.points.map((point, key) => { return (
+                          <li key={key}>{point}</li>
                         )})}
                         </div>
                         </div>

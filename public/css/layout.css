@@ -801,11 +801,18 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
+.row > .eigth {
+   margin: 0 auto;
+   justify-items: center;
+}
 #contact {
    background: #F0F7FF;
    padding-top: 96px;
    padding-bottom: 102px;
    color: rgb(42, 49, 126);
+   vertical-align: middle;
+   text-align: center;
+   justify-items: center;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -826,7 +833,7 @@ call-to-action .button {
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
-   text-align: left;
+   /* text-align: left; */
    float: left;
    color: #ebeeee;
 }
@@ -839,6 +846,7 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   
 }
 #contact .header-col { padding-top: 6px; }
 
