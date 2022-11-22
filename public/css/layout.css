@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -422,7 +422,9 @@ ul#nav li.current a { color: #F06000; }
    background: #D9E9FF;
    padding-top: 90px;
    padding-bottom: 60px;
+   justify-items: center;
 }
+
 #portfolio h1 {
    font: 20px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
@@ -433,14 +435,16 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; width: 500px; justify-items: center;}
+#portfolio-wrapper .columns { margin-bottom: 36px; width: 500px; justify-items: center; align-items: center;}
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
    height: 200px;
    width: 400px;
-   justify-items: center;
+   justify-content: center;
+   align-items: center;
+   vertical-align: middle;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -448,9 +452,16 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
+#item-img {
+   vertical-align: middle;
+}
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+   justify-items: center;
+   align-items: center;
+   vertical-align: middle;
 }
 
 /* overlay */
@@ -497,7 +508,14 @@ ul#nav li.current a { color: #F06000; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
-   vertical-align: bottom;
+   vertical-align: center;
+   align-items: center;
+   justify-items: center;
+   margin: 0 auto;
+}
+
+#portfolio-wrapper {
+   margin: 0 auto;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
@@ -801,15 +819,21 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
-.row > .eigth {
-   margin: 0 auto;
+.row {
    justify-items: center;
+   align-items: center;
 }
 .inline {
    display: inline-block;
    color: rgb(42, 49, 126);
    text-align: center;
    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 600px)  {
+   .inline {
+      align-items: center;
+   }
 }
 #contact {
    background: #F0F7FF;

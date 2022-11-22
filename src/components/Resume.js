@@ -14,24 +14,24 @@ export default function Resume (props) {
 
 <div className="nine columns main-col">
 
-   <p>
-   <div class="inline"><Icon icon="ion:logo-html5" id="icon" width="75"/><div>HTML</div></div>
-   <div class="inline"><Icon icon="ion:logo-css3" id="icon"  width="75" /><div>CSS</div></div>
-   <div class="inline"><Icon icon="mdi:language-javascript" id="icon" width="75" /><div>JavaScript</div></div>
-   <div class="inline"><Icon icon="mdi:jquery" id="icon" width="75" /><div>jQuery</div></div>
-   <div class="inline"><Icon icon="teenyicons:react-outline" id="icon"  width="75" /><div>React.js</div></div>
-   <div class="inline"><Icon icon="la:node-js" id="icon" width="75" /><div>Node.js</div></div>
-   <div class="inline"><Icon icon="simple-icons:express" id="icon" width="75" /><div>Express.js</div></div>
-   <div class="inline"><Icon icon="simple-icons:python" id="icon" width="75" /><div>Python</div></div>
-   <div class="inline"><Icon icon="akar-icons:django-fill" id="icon" width="75" /><div>Django</div></div>
-   <div class="inline"><Icon icon="teenyicons:mongodb-solid" id="icon" width="75" /><div>MongoDB</div></div>
-   <div class="inline"><Icon icon="akar-icons:postgresql-fill" id="icon" width="75" /><div>PostgreSQL</div></div>
-   <div class="inline"><Icon icon="mdi:sql-right-outer-join" id="icon" width="75" /><div>SQL</div></div>
-   <div class="inline"><Icon icon="fa6-brands:bootstrap" id="icon"  width="75" /><div>Bootstrap</div></div>
-   <div class="inline"><Icon icon="akar-icons:vscode-fill"id="icon"  width="75" /><div>VSCode</div></div>
-   <div class="inline"><Icon icon="mdi:git" id="icon" width="75" /><div>Git</div></div>
-   <div class="inline"><Icon icon="mdi:github" id="icon" width="75" /><div>GitHub</div></div>
-   </p>
+   
+   <div className="inline"><Icon icon="ion:logo-html5" id="icon" width="75"/><div>HTML</div></div>
+   <div className="inline"><Icon icon="ion:logo-css3" id="icon"  width="75" /><div>CSS</div></div>
+   <div className="inline"><Icon icon="mdi:language-javascript" id="icon" width="75" /><div>JavaScript</div></div>
+   <div className="inline"><Icon icon="mdi:jquery" id="icon" width="75" /><div>jQuery</div></div>
+   <div className="inline"><Icon icon="teenyicons:react-outline" id="icon"  width="75" /><div>React.js</div></div>
+   <div className="inline"><Icon icon="la:node-js" id="icon" width="75" /><div>Node.js</div></div>
+   <div className="inline"><Icon icon="simple-icons:express" id="icon" width="75" /><div>Express.js</div></div>
+   <div className="inline"><Icon icon="simple-icons:python" id="icon" width="75" /><div>Python</div></div>
+   <div className="inline"><Icon icon="akar-icons:django-fill" id="icon" width="75" /><div>Django</div></div>
+   <div className="inline"><Icon icon="teenyicons:mongodb-solid" id="icon" width="75" /><div>MongoDB</div></div>
+   <div className="inline"><Icon icon="akar-icons:postgresql-fill" id="icon" width="75" /><div>PostgreSQL</div></div>
+   <div className="inline"><Icon icon="mdi:sql-right-outer-join" id="icon" width="75" /><div>SQL</div></div>
+   <div className="inline"><Icon icon="fa6-brands:bootstrap" id="icon"  width="75" /><div>Bootstrap</div></div>
+   <div className="inline"><Icon icon="akar-icons:vscode-fill"id="icon"  width="75" /><div>VSCode</div></div>
+   <div className="inline"><Icon icon="mdi:git" id="icon" width="75" /><div>Git</div></div>
+   <div className="inline"><Icon icon="mdi:github" id="icon" width="75" /><div>GitHub</div></div>
+   
 
 {/* <div className="bars">
 

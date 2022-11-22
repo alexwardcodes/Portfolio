@@ -17,7 +17,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"In my previous life, I was a freelance translator working from German into English, translating primarily computer games along with finance materials. I began to lose the love of the job though, and my intense curiosity for programming was sparked when I happened to meet a graduate of General Assembly’s 3-month software engineering immersive at just the right time! I was hooked almost instantly, and I quickly decided on a total career change. I eagerly moved into software engineering, where my linguistic skills have proven to be a big asset. Dedicated, highly driven and always eager to learn, I’m passionate about the challenges I encounter in my programming journey and the opportunities for collaboration that this career path brings. I’m currently looking for opportunities to further develop my skills and move into a full stack role where I can utilise my abilities to their fullest potential.",
+    "aboutme":"In my previous life, I was a freelance translator working from German into English, translating primarily computer games along with finance materials. After ten years in the industry, my intense curiosity for programming was sparked when I happened to meet a graduate of General Assembly’s 3-month software engineering immersive at just the right time! I was hooked almost instantly, and I quickly decided on a total career change. I eagerly moved into software engineering, where my linguistic skills have proven to be a big asset. Dedicated, highly driven and always eager to learn, I’m passionate about the challenges I encounter in my programming journey and the opportunities for collaboration that this career path brings. I’m currently looking for opportunities to further develop my skills and move into a full stack role where I can utilise my abilities to their fullest potential.",
     "address":"Manchester M1, UK",
     "website":"https://alexward.codes",
     "experience": [{
@@ -31,7 +31,7 @@ let resumeData = {
       {
         "UniversityName":"General Assembly (London)",
         "specialization":"Software Engineering Immersive",
-        "MonthOfPassing":"August - November",
+        "MonthOfPassing":"August 2022 - November",
         "YearOfPassing":"2022",
         "Achievements": "After ten years as a freelance translator, I was ready for a change, and GA's immersive SEI course was the perfect option for me to pursue a new career in a field I feel passionately about."
       },
