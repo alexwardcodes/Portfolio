@@ -15,11 +15,6 @@ let resumeData = {
           "name":"github",
           "url":"https://github.com/alexwardcodes",
           "className":"fa fa-github"
-        },
-        {
-          "name":"slack",
-          "url":"https://acmeorg.enterprise.slack.com/user/@U03MP0GRVH9",
-          "className":"fa fa-slack"
         }
       ],
     "aboutme":"In my previous life, I was a freelance translator working from German into English, translating primarily computer games along with finance materials. I began to lose the love of the job though, and my intense curiosity for programming was sparked when I happened to meet a graduate of General Assembly’s 3-month software engineering immersive at just the right time! I was hooked almost instantly, and I quickly decided on a total career change. I eagerly moved into software engineering, where my linguistic skills have proven to be a big asset. Dedicated, highly driven and always eager to learn, I’m passionate about the challenges I encounter in my programming journey and the opportunities for collaboration that this career path brings. I’m currently looking for opportunities to further develop my skills and move into a full stack role where I can utilise my abilities to their fullest potential.",
@@ -28,7 +23,7 @@ let resumeData = {
     "experience": [{
       "CompanyName":"General Assembly",
       "specialization": "Software Engineering Immersive",
-      "MonthOfStarting": "Aug",
+      "MonthOfStarting": "Aug 2022 - November",
       "YearOfStarting": "2022",
       "Description": "This was a 3-month course offered by General Assembly - a leading provider of tech industry training - where I learned the fundamentals of software engineering in order to build full-stack applications both on my own and in groups. I did daily labs and homework assignments to practice what we learned in class, and had regular standups with other students on the course. I built and deployed one solo project and 3 group projects to demonstrate my new skills in full-stack development."
     }],
@@ -36,21 +31,21 @@ let resumeData = {
       {
         "UniversityName":"General Assembly (London)",
         "specialization":"Software Engineering Immersive",
-        "MonthOfPassing":"November",
+        "MonthOfPassing":"August - November",
         "YearOfPassing":"2022",
         "Achievements": "After ten years as a freelance translator, I was ready for a change, and GA's immersive SEI course was the perfect option for me to pursue a new career in a field I feel passionately about."
       },
       {
         "UniversityName":"Citizen Cafe Tel Aviv",
         "specialization":"Hebrew Language Course",
-        "MonthOfPassing":"July",
+        "MonthOfPassing":"October 2021 - July",
         "YearOfPassing":"2022",
         "Achievements": "I studied Hebrew for three semesters over Zoom with Citizen Cafe Tel Aviv, going from complete beginner to conversational in just under a year."
       },
       {
         "UniversityName":"Genie Networks",
         "specialization":"BSL (British Sign Language)",
-        "MonthOfPassing":"Aug",
+        "MonthOfPassing":"April 2015 - Aug",
         "YearOfPassing":"2018",
         "Achievements": "Genie Networks is a Deaf-owned charitable organisation that supports the Deaf community. Having been deafened for two years as a child, I had always wanted to study BSL, so I started learning with Genie and went from Level 1 to Level 3 over three years."
       },
@@ -58,8 +53,8 @@ let resumeData = {
       {
         "UniversityName":"University of Leeds",
         "specialization":"German Hons BA",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2004",
+        "MonthOfPassing":"September 2003 - Aug",
+        "YearOfPassing":"2007",
         "Achievements": "My family background led me to study German for four years, with a year spent in industry at Allianz AG in Munich. I also took elective courses in Bulgarian, Czech, Arabic and Ancient Greek Culture. My time here solidified my passion for languages and learning, but also taught me the fundamental value of self-reliance and adaptability."
       }
     ],
@@ -67,7 +62,7 @@ let resumeData = {
       {
         "CompanyName":"Freelance Translator & Proofreader",
         "specialization":"German > English Translation and Proofreading",
-        "MonthOfLeaving":"July",
+        "MonthOfLeaving":"July 2012 - July",
         "YearOfLeaving":"2022",
         "Achievements":"",
         "responsibilities": ["Translation of a range of materials - primarily gaming - from German into English", 
@@ -80,7 +75,7 @@ let resumeData = {
       {
         "CompanyName":"Lloyds Banking Group",
         "specialization":"Bilingual IT Analyst",
-        "MonthOfLeaving":"July",
+        "MonthOfLeaving":"April 2010 - July",
         "YearOfLeaving":"2012",
         "Achievements":"",
         "responsibilities": ["Front line IT support for German, Austrian, Dutch and Italian colleagues based in several European locations", "Resolution of basic IT issues and errors", "Management of software deployments", "Logging of colleague equipment requests", "Translation of software documentation and user manuals", "IT support for German external sales colleagues"]
@@ -88,7 +83,7 @@ let resumeData = {
       {
         "CompanyName":"thebigword",
         "specialization":"Project Administrator",
-        "MonthOfLeaving":"April",
+        "MonthOfLeaving":"February 2008 - April",
         "YearOfLeaving":"2010",
         "Achievements":"",
         "responsibilities": ["Management of translation projects for medical clients", "Procurement of translation providers for client projects", "Completion of quality assurance checks for completed translations", "Formatting of translation documents before delivery", "Liasing with engineering team for automation", "Assisting other teams with project administration as required"]
@@ -96,7 +91,7 @@ let resumeData = {
       {
         "CompanyName":"Allianz AG",
         "specialization":"Facultative Reinsurance Administrator",
-        "MonthOfLeaving":"September",
+        "MonthOfLeaving":"September 2005 - September",
         "YearOfLeaving":"2006",
         "Achievements":"",
         "responsibilities": ["Processing and escalation of contracts and premium bookings", "Management of contract items for 40+ clients in 6 countries", "Resolution of outstanding issues across 20+ years of previous contracts", "Client contact and engagement", "Logging of all correspondence and actions", "Translation of correspondence and contracts"]

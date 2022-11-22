@@ -805,6 +805,12 @@ call-to-action .button {
    margin: 0 auto;
    justify-items: center;
 }
+.inline {
+   display: inline-block;
+   color: rgb(42, 49, 126);
+   text-align: center;
+   padding-bottom: 15px;
+}
 #contact {
    background: #F0F7FF;
    padding-top: 96px;
