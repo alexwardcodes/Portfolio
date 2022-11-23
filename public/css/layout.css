@@ -453,8 +453,15 @@ ul#nav li.current a { color: #F06000; }
 	transition: all 0.3s ease-in-out;
 }
 
-#item-img {
+.item-img2 {
    vertical-align: middle;
+   border: 2px solid rgb(77, 89, 224);
+
+}
+#links a {
+   padding-left: 20px;
+   color: rgb(77, 89, 224);
+   font-weight: bold;
 }
 .portfolio-item .item-wrap a {
    display: block;
@@ -516,6 +523,7 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio-wrapper {
    margin: 0 auto;
+   
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {

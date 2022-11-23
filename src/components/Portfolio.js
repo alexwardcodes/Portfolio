@@ -17,9 +17,10 @@ export default function Portfolio (props) {
                   <div className="item-wrap">
                     <a href={`#${item.id}`}>
                       <div id={`${item.id}`} className="mfp-hide" >
+                        <button className="mfp-close">X</button>
                         <h1>{item.name}</h1>
                         <p />
-                        <img src={`${item.imgurl}`} className="item-img" alt="Project" height="500" width="600"/>
+                        <img src={`${item.imgurl}`} className="item-img2" alt="Project" height="500" width="600"/>
                         <p />
                         <div className="modal-content-points">
                         {item.text}
@@ -40,6 +41,10 @@ export default function Portfolio (props) {
                       </div>
                     </a>
                   </div>
+                  <p id="links"><a href={item.appLink} target="_blank" rel="noreferrer">Open app</a>&nbsp;
+                          <a href={item.githubLink} target="_blank" rel="noreferrer">Go to GitHub repo</a>&nbsp;
+                          <a href={item.githubRepo} target="_blank" rel="noreferrer">View ReadMe</a></p>
+                          <p />
                 </div>
               )
             })
