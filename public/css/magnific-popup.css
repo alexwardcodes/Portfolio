@@ -352,7 +352,7 @@ img.mfp-img {
     text-align: center;
     padding: 0; } }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 500px) {
   .mfp-arrow {
     -webkit-transform: scale(0.75);
     transform: scale(0.75); }
@@ -365,6 +365,12 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; 
+    max-width: 100%;
+  }
+  .mfp-content .mfp-hide {
+    padding-left: 6px;
+    padding-right: 6px; 
+    max-width: 100%;
   } }
 
 .mfp-ie7 .mfp-img {
