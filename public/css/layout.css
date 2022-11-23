@@ -466,7 +466,7 @@ ul#nav li.current a { color: #F06000; }
 
 @media screen and (max-width: 600px) {
    #links {
-      /* padding-left: 15px; */
+      padding-left: 15px;
       align-items: center;
    }
 }
