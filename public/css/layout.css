@@ -464,11 +464,11 @@ ul#nav li.current a { color: #F06000; }
    font-weight: bold;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
    #links a {
-      padding-left: 10px
+      padding-left: 15px
    }
-} */
+}
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
