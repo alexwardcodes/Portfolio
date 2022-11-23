@@ -43,7 +43,7 @@ export default function Portfolio (props) {
                   </div>
                   <p id="links"><a href={item.appLink} target="_blank" rel="noreferrer">Open app</a>&nbsp;
                           <a href={item.githubLink} target="_blank" rel="noreferrer">Go to GitHub repo</a>&nbsp;
-                          <a href={item.githubRepo} target="_blank" rel="noreferrer">View ReadMe</a></p>
+                          <a href={item.githubRepo} target="_blank" rel="noreferrer">ReadMe</a></p>
                           <p />
                 </div>
               )

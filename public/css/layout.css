@@ -459,10 +459,16 @@ ul#nav li.current a { color: #F06000; }
 
 }
 #links a {
-   padding-left: 20px;
+   padding-left: 30px;
    color: rgb(77, 89, 224);
    font-weight: bold;
 }
+
+/* @media screen and (max-width: 600px) {
+   #links a {
+      padding-left: 10px
+   }
+} */
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
