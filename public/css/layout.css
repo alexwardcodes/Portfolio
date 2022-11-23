@@ -562,6 +562,12 @@ ul#nav li.current a { color: #F06000; }
 	margin: 0 auto;
    visibility: hidden;
 }
+
+@media screen and (max-width: 600px) {
+   .modal-content-points {
+      max-width: 100%;
+   }
+}
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
    font: 15px/24px 'opensans-bold', sans-serif;
