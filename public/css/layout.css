@@ -455,7 +455,7 @@ ul#nav li.current a { color: #F06000; }
 @media screen and (max-width: 416px) {
    .portfolio-item .item-wrap {
       width: 350px;
-      height: 150px;
+      height: 200px;
    }
 }
 
