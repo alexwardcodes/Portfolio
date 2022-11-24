@@ -112,6 +112,7 @@ let resumeData = {
           "Built the general structure, product, review, search and cart APIs and models on the backend",
           "Assisted in writing React components for my backend code",
           "Deployed on Heroku",
+          "Fully mobile responsive"
           ]
       },
       {
@@ -127,7 +128,8 @@ let resumeData = {
           "Led the team to manage the project development process",
           "Coded in Python/jQuery using Django framework to design a quiz that profiles users of the site and suggests a list of holiday destinations based on their responses",
           "Created the user/profile accounts and signup,  created and managed the destination list in our database",
-          "Used PostgreSQL for data storage and deployed on Heroku"
+          "Used PostgreSQL for data storage and deployed on Heroku",
+          "Fully mobile responsive"
           ]
       },
       {
@@ -143,7 +145,8 @@ let resumeData = {
           "Acted as team leader to manage the project",
           "Built the overall structure, models, integrated APIs and views, and oversaw styling of the completed site while tracking the development flow and bugs to be fixed",
           "Built using JavaScript in an Express framework, MongoDB and Mongoose for data storage",
-          "Deployed finished app on Heroku"
+          "Deployed finished app on Heroku",
+          "Fully mobile responsive"
           ]
       },
       {
@@ -158,7 +161,8 @@ let resumeData = {
         "points": ["Solo project built over the course of a week",
           "Animated riddle game drawing on my love of mythology and ancient history",
           "Built using jQuery in an HTML framework with CSS",
-          "Deployed via GitHub Pages"
+          "Deployed via GitHub Pages",
+          "Fully mobile responsive"
           ]
       }
     ],
