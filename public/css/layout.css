@@ -452,6 +452,12 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+@media screen and (max-width: 416px) {
+   .portfolio-item .item-wrap {
+      width: 380px;
+      height: 180px;
+   }
+}
 
 .item-img2 {
    vertical-align: middle;
