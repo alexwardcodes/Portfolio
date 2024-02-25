@@ -234,6 +234,7 @@ margin-bottom: 2px;
 .tm-portfolio {
   background: #f8f8f8;
   padding-top: 80px;
+  padding-bottom: 140px;
 }
 .tm-portfolio .container {
   width: 100%;
@@ -359,7 +360,7 @@ margin-bottom: 2px;
 }
 
 /* ISOTOPE BOX CSS */
-.iso-box-section { width: 100%; }
+.iso-box-section { width: 60%; display: flex; flex-direction: row; flex-wrap: wrap; margin: 0 auto;}
 .iso-box-wrapper {
   width: 100%;
   padding: 0;
@@ -367,6 +368,7 @@ margin-bottom: 2px;
   position: relative;
 }
 .iso-box {
+  width: 50%;
   position: relative;
   min-height: 50px;
   float: left;
@@ -438,6 +440,10 @@ margin-bottom: 2px;
   width: 300px;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+.about-me-info {
+  text-align: justify;
 }
 /* END ABOUT */
 
