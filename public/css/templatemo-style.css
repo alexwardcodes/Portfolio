@@ -551,6 +551,82 @@ input { height: 50px; }
   .tm-home-title { font-size: 40px; }
 }
 
+@media screen and (max-width: 600px) {
+
+  .templatemo-home {
+    background: url(../images/background-rotated.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left left;
+
+  }
+
+  .templatemo-home .container {
+    padding-top: 80px;
+  }
+
+  .profile-pic {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .tm-about, .tm-portfolio, .tm-contact {
+    padding-top: 50px;
+  }
+
+  .tm-about {
+    line-height: 10px;
+  }
+
+  #portfolio {
+    height: 1100px;
+  }
+
+  .tm-padding-top-bottom-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .about-me-info p {
+    font-size: 14px;
+    line-height: 18px !important;
+  }
+
+  .skill-name {
+    width: 80px;
+  }
+.work-wrapper {
+  margin-bottom: 20px;
+}
+
+.work-wrapper p {
+  font-size: 14px;
+  line-height: 18px;
+}
+  .nav-title {
+    font-size: 16px;
+  }
+
+  .iso-box-section { width: 90%; display: flex; flex-direction: column; flex-wrap: wrap; margin: 0 auto; gap: 30px !important;}
+.iso-box-wrapper {
+  width: 100%;
+  padding: 0;
+  clear: both;
+  position: relative;
+}
+.iso-box {
+  width: 100%;
+  position: relative;
+  min-height: 50px;
+  float: left;
+  overflow: hidden;
+}
+
+.portfolio-thumb {
+  margin-bottom: 30px;
+}
+}
+
 /* START MEDIA 360 */
 @media screen and (max-width:360px){
   .navbar-default .navbar-brand {  padding-top: 2px; }
