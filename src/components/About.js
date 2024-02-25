@@ -29,7 +29,7 @@ const About = () => {
               development, so I'm always rubber ducking with the team to talk
               through challenges, sharing ideas and solutions with teammates,
               and iterating through code to make it as lean and high-performing
-              as possible definitely. I've found it's crucial to proactively
+              as possible. I've found it's crucial to proactively
               skill up on new technologies and the latest updates so I'm always
               up-to-speed, and I always share what I learn.
             </p>
