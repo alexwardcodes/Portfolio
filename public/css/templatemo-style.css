@@ -557,7 +557,7 @@ input { height: 50px; }
     background: url(../images/background-rotated.png);
     background-size: cover;
     background-attachment: fixed;
-    background-position: left left;
+    background-position: top left;
 
   }
 
