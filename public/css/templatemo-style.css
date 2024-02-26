@@ -52,11 +52,19 @@ hr {
 }
 
 
-
+section#resume.container {
+  display: flex;
+  margin-left: 0px !important;
+  align-items: center;
+  justify-content: center;
+}
 .row.skills-list {
+  margin-right: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 85vw;
 }
 
@@ -397,6 +405,7 @@ margin-bottom: 2px;
 /* START RESUME */
 #resume {
   background: #f8f8f8;
+  margin: 0 auto;
 }
 .tm-red-text { color: #eb5424; }
 .tm-info-label {
@@ -538,6 +547,21 @@ input { height: 50px; }
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
     background-attachment: fixed;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  #resume > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+
+  }
+
+  .row.skills-list {
+    align-items: center;
+    justify-content: center;
   }
 }
 
