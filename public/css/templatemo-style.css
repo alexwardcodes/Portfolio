@@ -555,6 +555,7 @@ input { height: 50px; }
 
   .templatemo-home {
     background: url(../images/background-rotated.png);
+    background-attachment: fixed;
   }
 
   .templatemo-home .container {
