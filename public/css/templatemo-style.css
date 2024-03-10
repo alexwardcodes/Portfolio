@@ -594,12 +594,33 @@ input { height: 50px; }
     padding-top: 0px;
     font-size: 16px;
   }
-}
 
-@media screen and (max-width: 600px) {
+  .iso-box-section { width: 90%; display: flex; flex-direction: column; flex-wrap: wrap; margin: 0 auto; gap: 30px !important;}
+  .iso-box-wrapper {
+    width: 100%;
+    padding: 0;
+    clear: both;
+    position: relative;
+  }
+  .iso-box {
+    width: 100%;
+    position: relative;
+    min-height: 50px;
+    float: left;
+    overflow: hidden;
+  }
+  
+  .portfolio-thumb {
+    margin-bottom: 30px;
+  }
+  
   .fluid-img {
     height: 45dvw;
   }
+}
+
+@media screen and (max-width: 600px) {
+
   .templatemo-home {
     background: url('../images/background-rotated.png');
     background-attachment: fixed;
@@ -625,7 +646,7 @@ input { height: 50px; }
   }
 
   #portfolio {
-    height: 1100px;
+    height: 1430px;
   }
 
   .tm-padding-top-bottom-100 {
@@ -649,24 +670,6 @@ input { height: 50px; }
     font-size: 16px;
   }
 
-  .iso-box-section { width: 90%; display: flex; flex-direction: column; flex-wrap: wrap; margin: 0 auto; gap: 30px !important;}
-.iso-box-wrapper {
-  width: 100%;
-  padding: 0;
-  clear: both;
-  position: relative;
-}
-.iso-box {
-  width: 100%;
-  position: relative;
-  min-height: 50px;
-  float: left;
-  overflow: hidden;
-}
-
-.portfolio-thumb {
-  margin-bottom: 30px;
-}
 }
 
 /* START MEDIA 360 */
