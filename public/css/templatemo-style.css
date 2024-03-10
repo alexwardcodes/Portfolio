@@ -246,7 +246,7 @@ margin-bottom: 2px;
 }
 .tm-portfolio .container {
   width: 100%;
-  height: 500px;
+  height: min-content;
   padding: 0;
   margin: 0;
 }
@@ -399,7 +399,7 @@ margin-bottom: 2px;
 .fluid-img {
   width: 100%;
   display: block;
-  height: 200px;
+  height: 15dvw;
 }
 /* END PORTFOLIO */
 
@@ -577,7 +577,9 @@ input { height: 50px; }
 }
 
 @media screen and (max-width: 600px) {
-
+  .fluid-img {
+    height: 45dvw;
+  }
   .templatemo-home {
     background: url('../images/background-rotated.png');
     background-attachment: fixed;
