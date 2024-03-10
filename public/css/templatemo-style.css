@@ -266,7 +266,7 @@ margin-bottom: 2px;
 }
 .portfolio-thumb {
   overflow: hidden;
-  margin: 0;
+  margin: 20px 20px;
   position: relative;
 }
 .portfolio-overlay {
@@ -374,6 +374,7 @@ margin-bottom: 2px;
   padding: 0;
   clear: both;
   position: relative;
+
 }
 .iso-box {
   width: 50%;

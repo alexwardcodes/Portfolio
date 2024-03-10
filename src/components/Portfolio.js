@@ -3,7 +3,7 @@ import React from "react";
  const Portfolio = () => {
 
 	const projects = [
-		{      appLink: "https://sei66project4agora.herokuapp.com/",
+		{      appLink: "https://agora-8009009f3244.herokuapp.com/",
 		githubLink: "https://github.com/alexwardcodes/Project4-Agora-Frontend",
 		githubRepo:
 		  "https://github.com/alexwardcodes/Project4-Agora-Frontend/blob/608f4b7883b279b13960eed62d9baf743682bab7/README.md"},
