@@ -1,19 +1,17 @@
-import React from "react";
-
-const About = () => {
+export const About = () => {
   return (
-    <section id="about" class="tm-about">
-      <div class="title">
-        <h2 class="tm-portfolio-title">
+    <section id="about" className="tm-about">
+      <div className="title">
+        <h2 className="tm-portfolio-title">
           About <strong>Me</strong>
         </h2>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 col-sm-7">
-            <div class="profile-pic"></div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-5 col-sm-7">
+            <div className="profile-pic"></div>
           </div>
-          <div class="col-md-7 col-sm-7 about-me-info">
+          <div className="col-md-7 col-sm-7 about-me-info">
             <p>
               Being driven by a passion for picking up new skills, new information
               and deciding how best to implement it, I transitioned from a
@@ -50,5 +48,3 @@ const About = () => {
     </section>
   );
 };
-
-export default About;

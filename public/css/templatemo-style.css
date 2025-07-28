@@ -56,8 +56,19 @@ section#resume.container {
   display: flex;
   margin-left: 0px !important;
   align-items: center;
-  justify-content: center;
+  justify-content: stretch;
 }
+
+
+section#work > .container > .row {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 30px;
+}
+
 .row.skills-list {
   margin-right: 0 auto;
   display: flex;
@@ -72,7 +83,6 @@ section#resume.container {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 100%;
 }
 
 .work-card-1 {
@@ -221,6 +231,8 @@ margin-bottom: 2px;
   border: 1px solid #666;
   border-radius: 10px;
   text-align: center;
+  width: 30%;
+
   padding: 30px 20px 30px 20px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
@@ -469,10 +481,13 @@ margin-bottom: 2px;
   padding: 0;
   margin: 0;
 }
+
+
 .tm-social .col-md-4 {
   padding: 0;
   margin: 0;
 }
+
 .facebook:hover,
 .twitter:hover,
 .pinterest:hover {
@@ -624,6 +639,13 @@ input { height: 50px; }
 
 @media screen and (max-width: 600px) {
 
+  section#work > .container > .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-wrapper {
+    width: 90%;
+  }
   .templatemo-home {
     background: url('../images/background.jpg');
     background-attachment: fixed;

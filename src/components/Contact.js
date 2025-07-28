@@ -1,16 +1,15 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 
-const Contact = () => {
+export const Contact = () => {
   return (
-    <section id="contact" class="tm-contact">
-      <div class="container">
-        <div class="title">
-          <h2 class="tm-portfolio-title">
+    <section id="contact" className="tm-contact">
+      <div className="container">
+        <div className="title">
+          <h2 className="tm-portfolio-title">
             Contact <strong>Me</strong>
           </h2>
         </div>
-        <div class="row">
+        <div className="row">
           <div className="contact-icons">
             <a
               href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=alexwardcodes@gmail.com&tf=1
@@ -35,7 +34,7 @@ const Contact = () => {
               <Icon icon="entypo-social:linkedin-with-circle" width="70" id="contact-icon"/>
             </a>
           </div>
-          <div class="col-md-12 col-sm-12">
+          <div className="col-md-12 col-sm-12">
             <p>Alexander Ward | 2024</p>
           </div>
         </div>

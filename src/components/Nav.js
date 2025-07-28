@@ -1,53 +1,48 @@
-import React from "react";
-
-const Nav = () => {
+export const Nav = () => {
   return (
-    <div
-      class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation"
-      role="navigation"
-    >
-      <div class="container">
-        <div class="navbar-header">
+    <div className="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation" >
+      <div className="container">
+        <div className="navbar-header">
           <button
-            class="navbar-toggle"
+            className="navbar-toggle"
             data-toggle="collapse"
             data-target="#rock-navigation"
           >
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
+            <span className="icon icon-bar"></span>
+            <span className="icon icon-bar"></span>
+            <span className="icon icon-bar"></span>
           </button>
-          <a href="#home" class="navbar-brand">
+          <a href="#home" className="navbar-brand">
             {" "}
-            <h2 class="tm-portfolio-title nav-title">
+            <h2 className="tm-portfolio-title nav-title">
               alexward<strong>.codes</strong>
             </h2>
           </a>
         </div>
-        <nav class="collapse navbar-collapse" id="rock-navigation">
-          <ul class="nav navbar-nav navbar-right main-navigation text-uppercase">
+        <nav className="collapse navbar-collapse" id="rock-navigation">
+          <ul className="nav navbar-nav navbar-right main-navigation text-uppercase">
             <li>
-              <a href="#about" class="smoothScroll">
+              <a href="#about" className="smoothScroll">
                 About
               </a>
             </li>
             <li>
-              <a href="#resume" class="smoothScroll">
+              <a href="#resume" className="smoothScroll">
                 Skills
               </a>
             </li>
             <li>
-              <a href="#work" class="smoothScroll">
+              <a href="#work" className="smoothScroll">
                 Experience
               </a>
             </li>
             <li>
-              <a href="#portfolio" class="smoothScroll">
+              <a href="#portfolio" className="smoothScroll">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#contact" class="smoothScroll">
+              <a href="#contact" className="smoothScroll">
                 Contact
               </a>
             </li>
@@ -57,5 +52,3 @@ const Nav = () => {
     </div>
   );
 };
-
-export default Nav;
